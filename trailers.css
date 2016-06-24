@@ -1,0 +1,36 @@
+body{
+	font-color: #333;
+	font-size: 16px;
+	display: inline-block;
+	font-family: helvetica neuve;
+}
+nav{
+	background-color: whitesmoke;
+	height: 50px;
+	border-bottom: 1px;
+	border-bottom-color: #ddd;
+	border-bottom: inset;
+}
+img{
+	width: 150px;
+	margin: 0 auto;
+}
+a{
+	text-align: center;
+	font-size: 16px;
+}
+h1{
+	font-size: 16px;
+}
+div.trailers{
+	width: 150px;
+	height: 260px;
+	display: inline-block;
+	background-color: whitesmoke; 
+	margin:20px;
+	padding: 20px 20px;
+
+
+
+
+}

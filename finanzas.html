@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Finanzas</title>
+	<meta charset="utf-8">
+  <meta name="description" content="reto 1.6" >
+  <meta neame="autor" content="JesicaGomez" >
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+  <script type="text/javascript" src="../bower_components/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="../bower_components/moment/min/moment.min.js"></script>
+  <script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="../bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse"
+      data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Desplegar navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">mis <b>finanzas</b></a>
+    </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Desplegar navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-fire"></span> Resumen</a>
+    </div>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <span class="sr-only">Desplegar navegación</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-list"></span> Transacciones</a>
+    </div>
+  </nav>
+  <div class="row">
+    <div class="col-md-3">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Buscar">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">
+           <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+         </button>
+        </span>
+      </div>
+      <br>
+      <div class="list-group">
+        <a href="#" class="list-group-item">Ingresos</a>
+        <a href="#" class="list-group-item">Gastos</a>
+        <br>
+        <a href="#" class="list-group-item">Restaurante</a>
+        <a href="#" class="list-group-item">Hogar</a>
+        <a href="#" class="list-group-item">Diversión</a>
+        <a href="#" class="list-group-item">Viajes</a>
+        <a href="#" class="list-group-item">Carro</a>
+      </div>
+    </div> 
+    <div class="col-md-4">
+      <button type="button" class="btn btn-primary"><b>+ Nuevas transacciones</b></button>
+    </div>   
+    <div class="col-md-offset-2 col-md-3">
+      <div class="form-group">
+        <div class='input-group date' id='datetimepicker1'>
+          <input type='text' class="form-control" />
+          <span class="input-group-addon">
+            <span class="glyphicon glyphicon-calendar"></span>
+          </span>
+        </div>
+        
+      </div>
+    </div>
+    <div class="col-md-9">
+      <table class="table">
+        <tr>
+          <th><h3><small>AGOS </small><br>26</h3></th>
+          <td><h3><small>Gasto <button type="button" class="btn btn-info btn-sm">Hogar</button></small><br>Arriendo </h3></td>
+          <td><h3>$900.000 
+              <br><small> <span class="glyphicon glyphicon-pencil"></span>Editar
+                          <span class="glyphicon glyphicon-trash"></span>Eliminar
+                  </small></h3></td>
+        </tr>
+        <tr>
+          <th><h3><small>AGOS </small><br>25</h3></th>
+          <td><h3><small>Gasto <button type="button" class="btn btn-info btn-sm">Restaurante</button></small><br>El Rincón de mi tierra</h3></td>
+          <td><h3>$120.000
+              <br><small> <span class="glyphicon glyphicon-pencil"></span>Editar
+                          <span class="glyphicon glyphicon-trash"></span>Eliminar
+                  </small></h3></td>
+        </tr>
+        <tr>
+          <th><h3><small>AGOS </small><br>24</h3></th>
+          <td><h3><small>Ingreso </small><br>Salario</h3></td>
+          <td><h3>$4'500.000
+              <br><small><span class="glyphicon glyphicon-pencil"></span>Editar
+                         <span class="glyphicon glyphicon-trash"></span>Eliminar
+                  </small></h3></td
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script>
+          $(function () {
+           $('#datetimepicker1').datetimepicker();
+         });
+  </script>
+ 
+</body>
+</html>

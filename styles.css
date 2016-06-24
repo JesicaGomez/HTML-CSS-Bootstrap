@@ -1,0 +1,37 @@
+
+
+body{
+    font-family: helvetica neue; 
+    font-size: 16px;
+    font-color:#333;
+
+}
+
+img{
+	width: 150px;
+}
+
+h2{
+	font-size: 16px;
+}
+a{
+	font-size: 12px;
+
+}
+
+nav{
+	background-color:whitesmoke; 
+	padding: 10px;
+}
+
+.trailer{
+
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	background-color: whitesmoke; 
+	margin:20px;
+	padding: 20px 20px;
+	
+
+}

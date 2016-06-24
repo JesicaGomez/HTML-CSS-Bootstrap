@@ -1,0 +1,17 @@
+
+.asd{
+	font-size: 16px;
+	font-family: "Helvetica";
+    background-color: #edeff0;
+}
+.container {
+	width: 700px;
+	background-color: white;
+	margin-top: 15px;
+	padding-bottom: 15px;
+}
+
+p {
+	color:#b2bac2;
+}
+	
